@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load static %}
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -31,8 +31,7 @@
     </nav>
     <!-- /navigation -->
 
-    {% block content %}
-    {% endblock %}
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
