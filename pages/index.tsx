@@ -1,17 +1,31 @@
-import { NextPage } from 'next'
+// react
+import * as React from 'react';
+// custom component
+import About from 'components/section/About';
+import HireMe from 'components/section/HireMe';
+import HomeHero from 'components/section/HomeHero';
+import MainLayout from 'components/layout/MainLayout';
+import RecentProjects from 'components/section/RecentProjects';
+import Skills from 'components/section/Skills';
+// custom context
+import ConstantsContext from 'context/constantsContext';
+// type
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
+  const { pages } = React.useContext(ConstantsContext);
+
   return (
-    <html>
-    <body>
-    
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-    
-    </body>
-    </html> 
-  )
-}
+    <>
+      <MainLayout pageData={pages!.home}>
+        <HomeHero />
+        <About />
+        <Skills />
+        <HireMe />
+        <RecentProjects />
+      </MainLayout>
+    </>
+  );
+};
 
-export default Home
-
+export default Home;
