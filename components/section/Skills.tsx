@@ -13,9 +13,12 @@ import {
 import ContainerGrid from 'components/common/ContainerGrid';
 import SkillProgress from 'components/common/SkillProgress';
 // custom icons
-import PythonIcon from 'components/icon/Python';
 import JavaIcon from 'components/icon/Java';
+import DjangoIcon from 'components/icon/Django';
+import PythonIcon from 'components/icon/Python';
 import GoLangIcon from 'components/icon/GoLang';
+import JavaScriptIcon from 'components/icon/JavaScript';
+import TypeScriptIcon from 'components/icon/TypeScript';
 // context
 import ComponentsContext from 'context/componentsContext';
 // type
@@ -58,6 +61,27 @@ const Skills: React.FunctionComponent<SkillsProps> = (props) => {
       ),
       title: 'GoLang',
       progressValue: 60,
+    },
+    {
+      Icon: (
+        <JavaScriptIcon bgColor="white" fontSize="large" />
+      ),
+      title: 'JavaScript',
+      progressValue: 50,
+    },
+    {
+      Icon: (
+        <TypeScriptIcon bgColor="white" fontSize="large" />
+      ),
+      title: 'TypeScript',
+      progressValue: 50,
+    },
+    {
+      Icon: (
+        <DjangoIcon bgColor="white" fontSize="large" />
+      ),
+      title: 'Django',
+      progressValue: 80,
     },
   ];
 

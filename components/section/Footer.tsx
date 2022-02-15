@@ -75,7 +75,7 @@ const Footer: React.FunctionComponent<FooterProps> = (props) => {
         Made with ❤️ at <TextLink href="https://mopeim.com">mopeim</TextLink>
       </Typography>
       <Typography variant="body1" textAlign="center">
-        Modified By Mushfiqul
+        Developed By Mushfiqul
       </Typography>
     </>
   );
