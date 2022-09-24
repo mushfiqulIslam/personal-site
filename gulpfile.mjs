@@ -21,23 +21,23 @@ import clean from 'gulp-clean';
 // Paths
 var paths = {
     root: { 
-        www:        './app'
+        www:        '.'
     },
     src: {
-        root:       'app/assets',
-        html:       'app/**/*.html',
-        css:        'app/assets/css/*.css',
-        js:         'app/assets/js/*.js',
-        vendors:    'app/assets/vendors/**/*.*',
-        imgs:       'app/assets/imgs/**/*.+(png|jpg|JPG|gif|svg)',
-        scss:       'app/assets/scss/**/*.scss'
+        root:       'assets',
+        html:       '**/*.html',
+        css:        'assets/css/*.css',
+        js:         'assets/js/*.js',
+        vendors:    'assets/vendors/**/*.*',
+        imgs:       'assets/imgs/**/*.+(png|jpg|JPG|gif|svg)',
+        scss:       'assets/scss/**/*.scss'
     },
     dist: {
-        root:       'app/dist',
-        css:        'app/dist/css',
-        js:         'app/dist/js',
-        imgs:       'app/dist/imgs',
-        vendors:    'app/dist/vendors'
+        root:       'dist',
+        css:        'dist/css',
+        js:         'dist/js',
+        imgs:       'dist/imgs',
+        vendors:    'dist/vendors'
     }
 }
 
