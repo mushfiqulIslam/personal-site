@@ -98,7 +98,6 @@ gulp.task('clean', function () {
 // Prepare all assets for production
 gulp.task('build', gulp.series('sass', 'css', 'js', 'vendors', 'img'));
 
-
 // Watch (SASS, CSS, JS, and HTML) reload browser on change
 gulp.task('watch', function() {
     browserSync.init({

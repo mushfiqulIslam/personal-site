@@ -1,11 +1,12 @@
 {
-  "name": "John_Doe",
+  "name": "personal_site",
   "version": "1.5.0",
   "description": "An elegant responsive bootstrap 4.x theme.",
   "main": "gulpfile.js",
   "author": "DevCRUD",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp watch",
+    "build": "gulp build"
   },
   "devDependencies": {
     "browser-sync": "^2.27.10",
@@ -40,7 +41,6 @@
     "android >= 4"
   ],
   "dependencies": {
-    "imagemin-svgo": "^10.0.1",
     "node-sass": "^7.0.3"
   }
 }
