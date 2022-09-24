@@ -21,6 +21,12 @@
     "imagemin-jpeg-recompress": "^7.0.0",
     "imagemin-pngquant": "^9.0.2"
   },
+  "optionalDependencies": {
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1"
+  },
   "browserslist": [
     "> 1%",
     "ie >= 8",
@@ -34,6 +40,7 @@
     "android >= 4"
   ],
   "dependencies": {
+    "imagemin-svgo": "^10.0.1",
     "node-sass": "^7.0.3"
   }
 }
