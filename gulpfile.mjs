@@ -8,6 +8,10 @@ import rename from 'gulp-rename';
 import concat from'gulp-concat';
 import cleanCSS  from'gulp-clean-css';
 import imageMin  from'gulp-imagemin';
+import imageminGifsicle from 'imagemin-gifsicle';
+import imageminJpegtran from 'imagemin-jpegtran';
+import imageminOptipng from 'imagemin-optipng';
+import imageminSvgo from 'imagemin-svgo';
 import pngQuint  from'imagemin-pngquant'; 
 import browserSync from'browser-sync';
 import autoprefixer from'gulp-autoprefixer';
@@ -25,7 +29,7 @@ var paths = {
         css:        'app/assets/css/*.css',
         js:         'app/assets/js/*.js',
         vendors:    'app/assets/vendors/**/*.*',
-        imgs:       'app/assets/imgs/**/*.+(png|jpg|gif|svg)',
+        imgs:       'app/assets/imgs/**/*.+(png|jpg|JPG|gif|svg)',
         scss:       'app/assets/scss/**/*.scss'
     },
     dist: {
@@ -69,10 +73,10 @@ gulp.task('js', function() {
 gulp.task('img', function(){
     return gulp.src(paths.src.imgs)
     .pipe(imageMin([
-        imageMin.gifsicle(),
-        imageMin.jpegtran(),
-        imageMin.optipng(),
-        imageMin.svgo(),
+        imageminGifsicle(),
+        imageminJpegtran(),
+        imageminOptipng(),
+        imageminSvgo(),
         pngQuint(),
         jpgRecompress()
     ]))
@@ -93,7 +97,6 @@ gulp.task('clean', function () {
 
 // Prepare all assets for production
 gulp.task('build', gulp.series('sass', 'css', 'js', 'vendors', 'img'));
-
 
 // Watch (SASS, CSS, JS, and HTML) reload browser on change
 gulp.task('watch', function() {
