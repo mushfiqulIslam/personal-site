@@ -23,12 +23,12 @@ form.addEventListener("submit", sendMsg);
 
 // print CV
 function printCV() {
-    var pdf= window.open('assets/Mushfiqul_Islam_Chowdhury__Resume-v-1.4.pdf');
+    var pdf= window.open('assets/Mushfiqul_Islam_Chowdhury__Resume.pdf');
     pdf.print();
 }
 
 // download CV
 function downloadCV() {
-    var pdf= window.open('assets/Mushfiqul_Islam_Chowdhury__Resume-v-1.4.pdf');
+    var pdf= window.open('assets/Mushfiqul_Islam_Chowdhury__Resume.pdf');
 
 }
