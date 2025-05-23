@@ -32,13 +32,13 @@ const Footer = () => {
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Phone: 01515248558</p>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Dhaka, Bangladesh</p>
             <div className="flex space-x-3">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
+              <a href="https://www.linkedin.com/in/mushfiqul-islam-chowdhury/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
+              <a href="https://github.com/mushfiqulIslam" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
+              <a href="https://x.com/_mushfiqulIslam" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
