@@ -5,7 +5,6 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ProjectCard from '@/components/ProjectCard';
 import { motion } from 'framer-motion';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Index = () => {
   // Featured projects data
@@ -117,43 +116,28 @@ const Index = () => {
               </p>
             </motion.div>
             
-            <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
-              <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5 }}
-                viewport={{ once: true }}
-                className="w-48 h-48 flex-shrink-0 rounded-full overflow-hidden border-4 border-portfolio-accent shadow-lg shadow-portfolio-accent/20"
-              >
-                <Avatar className="w-full h-full">
-                  <AvatarImage src="https://mushfiqulislam.me/assets/imgs/avatar.jpg" alt="Mushfiqul Islam Chowdhury" className="object-cover" />
-                  <AvatarFallback className="text-2xl bg-gradient-to-br from-portfolio-blue to-portfolio-accent">MIC</AvatarFallback>
-                </Avatar>
-              </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300"
+            >
+              <p>
+                With over three years of industry experience, I excel at building AI-driven applications, deploying them at scale using modern DevOps practices, and integrating with APIs like OpenAI. My passion is solving real-world problems using data and code.
+              </p>
               
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.7, delay: 0.2 }}
-                viewport={{ once: true }}
-                className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300"
-              >
-                <p>
-                  With over three years of industry experience, I excel at building AI-driven applications, deploying them at scale using modern DevOps practices, and integrating with APIs like OpenAI. My passion is solving real-world problems using data and code.
-                </p>
-                
-                <p className="mt-4">
-                  I am a Software Engineer specializing in Machine Learning, MLOps, and scalable backend systems. With over three years of experience, I have worked with Python, Django, and cloud infrastructures to build AI-driven applications. I have also integrated APIs like OpenAI, optimizing ML pipelines with ZenML and MLflow for efficient deployment and automation.
-                </p>
-              </motion.div>
-            </div>
+              <p className="mt-4">
+                I am a Software Engineer specializing in Machine Learning, MLOps, and scalable backend systems. With over three years of experience, I have worked with Python, Django, and cloud infrastructures to build AI-driven applications. I have also integrated APIs like OpenAI, optimizing ML pipelines with ZenML and MLflow for efficient deployment and automation.
+              </p>
+            </motion.div>
             
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.3 }}
               viewport={{ once: true }}
-              className="text-center"
+              className="text-center mt-8"
             >
               <Button asChild variant="outline" className="border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent/10">
                 <Link to="/about" className="flex items-center gap-2">

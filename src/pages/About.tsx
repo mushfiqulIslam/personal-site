@@ -1,9 +1,19 @@
-
 import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import SocialLinks from '@/components/SocialLinks';
+import sampleCV from '../assets/Mushfiqul_Islam_Chowdhury__Resume.pdf';
 
 const About = () => {
+  const handleDownloadCV = () => {
+    // Create a link element
+    const link = document.createElement('a');
+    link.href = sampleCV;
+    link.download = 'mushfiqul-islam-cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-screen pt-20">
       <section className="py-16 bg-white dark:bg-gray-900">
@@ -17,7 +27,11 @@ const About = () => {
                   I am a Software Engineer specializing in Machine Learning, MLOps, and scalable backend systems. With over three years of experience, I have worked with Python, Django, and cloud infrastructures to build AI-driven applications. I have also integrated APIs like OpenAI, optimizing ML pipelines with ZenML and MLflow for efficient deployment and automation.
                 </p>
               </div>
-              <Button variant="outline" className="flex items-center gap-2">
+              <Button 
+                variant="outline" 
+                className="flex items-center gap-2"
+                onClick={handleDownloadCV}
+              >
                 <Download className="h-4 w-4" /> Download CV
               </Button>
             </div>
@@ -25,12 +39,7 @@ const About = () => {
             <div className="md:col-span-1">
               <h1 className="text-3xl font-bold mb-4">Personal Info</h1>
               
-              <div className="space-y-4 text-gray-600 dark:text-gray-300">
-                <div>
-                  <p className="font-semibold">Birthday:</p>
-                  <p>04/21/1998</p>
-                </div>
-                
+              <div className="space-y-4 text-gray-600 dark:text-gray-300">      
                 <div>
                   <p className="font-semibold">Email:</p>
                   <p>mushfiqulislamchowdhury@gmail.com</p>
@@ -38,7 +47,7 @@ const About = () => {
                 
                 <div>
                   <p className="font-semibold">Phone:</p>
-                  <p>0151524855</p>
+                  <p>01515248558</p>
                 </div>
                 
                 <div>

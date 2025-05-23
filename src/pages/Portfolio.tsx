@@ -11,8 +11,7 @@ const Portfolio = () => {
         "Worked with Django, SQLite and REST API."
       ],
       technologies: ["Python", "Django", "REST API", "SQLite"],
-      liveLink: "#",
-      codeLink: "#",
+      codeLink: "https://github.com/mushfiqulIslam/Foodanywhere",
     },
     {
       title: "BUCC Signup App",
@@ -22,7 +21,7 @@ const Portfolio = () => {
         "Worked with Tkinter, Pillow, Openpyxl, and Pyinstaller."
       ],
       technologies: ["Python", "Tkinter", "Pillow", "Openpyxl", "Pyinstaller"],
-      codeLink: "#",
+      codeLink: "https://github.com/buccbracu/buccsignup",
     },
     {
       title: "StackOverflow Assistant Bot",
@@ -31,8 +30,7 @@ const Portfolio = () => {
         "Worked with ChatterBot, Numpy, Pandas, Sci-kit Learn and NLP."
       ],
       technologies: ["Python", "ChatterBot", "NLP", "Numpy", "Pandas", "Scikit-learn"],
-      liveLink: "#",
-      codeLink: "#",
+      codeLink: "https://github.com/mushfiqulIslam/mltraining/tree/master/StackOverflow%20Assistant",
     },
     {
       title: "ML Model Deployment Pipeline",
@@ -42,27 +40,6 @@ const Portfolio = () => {
         "Containerized deployment with monitoring and logging."
       ],
       technologies: ["MLflow", "ZenML", "Docker", "Kubernetes", "Python"],
-      codeLink: "#",
-    },
-    {
-      title: "Customer Segmentation Tool",
-      description: [
-        "Data analysis tool for customer segmentation using clustering algorithms.",
-        "Interactive dashboard for visualizing customer segments.",
-        "API for integration with other business systems."
-      ],
-      technologies: ["Python", "Scikit-learn", "FastAPI", "React", "D3.js"],
-      liveLink: "#",
-    },
-    {
-      title: "Microservice Architecture Demo",
-      description: [
-        "Demonstration of microservices architecture patterns.",
-        "Service discovery, API gateway, and load balancing implementation.",
-        "Event-driven communication between services."
-      ],
-      technologies: ["Golang", "gRPC", "Docker", "Kubernetes", "RabbitMQ"],
-      codeLink: "#",
     },
   ];
 

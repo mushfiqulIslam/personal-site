@@ -6,27 +6,15 @@ const Papers = () => {
     {
       title: "Real Time Action Recognition from Video Footage",
       abstract: `Crime rate is increasing proportionally with the increasing rate of the population. The most prominent approach was to introduce Closed-Circuit Television (CCTV) camera-based surveillance to tackle the issue. Video surveillance cameras have added a new dimension to detect crime. Several research works on autonomous security camera surveillance are currently ongoing, where the fundamental goal is to discover violent activity from video feeds. From the technical viewpoint, this is a challenging problem because analyzing a set of frames, i.e., videos in temporal dimension to detect violence might need careful machine learning model training to reduce false results. This research focuses on this problem by integrating state-of-the-art Deep Learning methods to ensure a robust pipeline for autonomous surveillance for detecting violent activities, e.g., kicking, punching, and slapping. Initially, we designed a dataset of this specific interest, which contains 600 videos (200 for each action). Later, we have utilized existing pre-trained model archi- tectures to extract features, and later used deep learning network for classification. Also, We have classified our models' accuracy, and confusion matrix on different pre-trained architectures like VGG16, Inceptionv3, Resnet50, Xception and MobileNet V2 among which VGG16 and MobileNet V2 performed better.`,
-      link: "#",
+      link: "https://ieeexplore.ieee.org/abstract/document/9732601",
       status: "Published",
     },
     {
       title: "Deep Neural Network-Based Sign Language Recognition: A Comprehensive Approach Using Transfer Learning with Explainability",
       abstract: "This research paper explores advanced methods in sign language recognition using deep neural networks with a focus on transfer learning and explainable AI techniques. The proposed approach aims to improve accessibility for the deaf and hard-of-hearing community through accurate and interpretable sign language translation systems.",
-      link: "#",
-      status: "Submitted for Review",
-    },
-    {
-      title: "Optimization Techniques for MLOps: Streamlining Machine Learning Deployment in Production",
-      abstract: "This paper examines various optimization techniques for MLOps, focusing on efficient machine learning model deployment in production environments. It explores CI/CD integration, containerization, monitoring, and automation practices that improve reliability and reduce operational overhead in ML systems.",
-      link: "#",
-      status: "In Progress",
-    },
-    {
-      title: "Comparative Analysis of Backend Frameworks for AI-Intensive Applications",
-      abstract: "A systematic comparison of modern backend frameworks (Django, FastAPI, Express, Go) for applications with intensive AI components. The study evaluates performance metrics, scalability, real-time processing capabilities, and integration ease with ML libraries across different workloads and use cases.",
-      link: "#",
-      status: "In Planning",
-    },
+      link: "https://arxiv.org/abs/2409.07426",
+      status: "Uploaded on arXiv",
+    }
   ];
 
   return (

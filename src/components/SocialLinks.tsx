@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 interface SocialLinksProps {
   className?: string;
@@ -34,6 +34,15 @@ const SocialLinks = ({ className = '' }: SocialLinksProps) => {
         aria-label="Twitter Profile"
       >
         <Twitter className="h-5 w-5" />
+      </a>
+      <a 
+        href="mailto:mushfiqulislamchowdhury@gmail.com" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-portfolio-accent transition-colors"
+        aria-label="Email Contact"
+      >
+        <Mail className="h-5 w-5" />
       </a>
     </div>
   );

@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-3">Mushfiqul Islam Chowdhury</h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-              Software Engineer | Backend Engineer | Data Science Engineer
+              Software Engineer | Backend Engineer | AI Engineer
             </p>
           </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-3">Get in touch</h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-1">Email: mushfiqulislamchowdhury@gmail.com</p>
-            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Phone: 0151524855</p>
+            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Phone: 01515248558</p>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Dhaka, Bangladesh</p>
             <div className="flex space-x-3">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">

@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import sampleCV from '../assets/Mushfiqul_Islam_Chowdhury__Resume.pdf';
 
 const Resume = () => {
   const skills = [
@@ -15,6 +16,15 @@ const Resume = () => {
     { name: "English", percentage: 85 }
   ];
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = sampleCV;
+    link.download = 'mushfiqul-islam-cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-screen pt-20">
       <section className="py-16 bg-gray-50 dark:bg-gray-900">
@@ -24,7 +34,10 @@ const Resume = () => {
               <h1 className="text-3xl md:text-4xl font-bold">
                 <span className="text-portfolio-accent">My</span> Resume
               </h1>
-              <Button className="mt-4 md:mt-0 flex items-center gap-2 bg-portfolio-accent hover:bg-portfolio-accent/90">
+              <Button 
+                className="mt-4 md:mt-0 flex items-center gap-2 bg-portfolio-accent hover:bg-portfolio-accent/90"
+                onClick={handleDownloadCV}
+              >
                 <Download className="h-4 w-4" /> Download Resume
               </Button>
             </div>

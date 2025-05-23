@@ -1,9 +1,10 @@
 
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Linkedin, Github, Twitter, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import avatarImage from "../assets/avatar.jpg";
 
 const Hero = () => {
   return <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-portfolio-blue overflow-hidden">
@@ -67,7 +68,7 @@ const Hero = () => {
                 <div className="text-center">
                   <div className="mx-auto w-32 h-32 rounded-full overflow-hidden border-4 border-portfolio-accent mb-6 shadow-lg shadow-portfolio-accent/20">
                     <Avatar className="w-full h-full">
-                      <AvatarImage src="https://mushfiqulislam.me/assets/imgs/avatar.jpg" alt="Mushfiqul Islam Chowdhury" className="object-cover" />
+                      <AvatarImage src={avatarImage} alt="Mushfiqul Islam Chowdhury" className="object-cover" />
                       <AvatarFallback className="text-lg text-white bg-gradient-to-br from-portfolio-blue to-portfolio-accent">MIC</AvatarFallback>
                     </Avatar>
                   </div>
@@ -76,25 +77,18 @@ const Hero = () => {
                     With over three years of experience in AI and machine learning, I create scalable solutions that make a difference.
                   </p>
                   <div className="flex justify-center space-x-4">
-                    {/* Social icons would be here */}
-                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
-                      </svg>
-                    </div>
-                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                      </svg>
-                    </div>
-                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                      </svg>
-                    </div>
+                    <a href="https://www.linkedin.com/in/mushfiqul-islam-chowdhury/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
+                      <Linkedin className="h-5 w-5 text-white" />
+                    </a>
+                    <a href="https://github.com/mushfiqulIslam" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
+                      <Github className="h-5 w-5 text-white" />
+                    </a>
+                    <a href="https://twitter.com/_mushfiqulIslam" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
+                      <Twitter className="h-5 w-5 text-white" />
+                    </a>
+                    <a href="mailto:mushfiqulislamchowdhury@gmail.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">
+                      <Mail className="h-5 w-5 text-white" />
+                    </a>
                   </div>
                 </div>
               </div>
