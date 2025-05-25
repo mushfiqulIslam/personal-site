@@ -126,10 +126,6 @@ const Index = () => {
               <p>
                 With over three years of industry experience, I excel at building AI-driven applications, deploying them at scale using modern DevOps practices, and integrating with APIs like OpenAI. My passion is solving real-world problems using data and code.
               </p>
-              
-              <p className="mt-4">
-                I am a Software Engineer specializing in Machine Learning, MLOps, and scalable backend systems. With over three years of experience, I have worked with Python, Django, and cloud infrastructures to build AI-driven applications. I have also integrated APIs like OpenAI, optimizing ML pipelines with ZenML and MLflow for efficient deployment and automation.
-              </p>
             </motion.div>
             
             <motion.div
