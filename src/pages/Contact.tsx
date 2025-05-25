@@ -22,7 +22,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-portfolio-accent mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Phone :</h3>
-                    <p className="text-gray-600 dark:text-gray-300">0151524855</p>
+                    <p className="text-gray-600 dark:text-gray-300">01515248558</p>
                   </div>
                 </div>
                 
