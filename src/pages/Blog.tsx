@@ -53,17 +53,6 @@ const blogPosts = [
     image: '/placeholder.svg',
     readTime: '7 min read',
     slug: 'rise-of-explainable-ai'
-  },
-  {
-    id: 5,
-    title: 'Behind the Scenes: Rebuilding My Portfolio',
-    excerpt: 'A detailed look at the technical decisions and design process behind my latest portfolio website update.',
-    date: '2025-03-05',
-    category: 'Web Development',
-    tags: ['React', 'Portfolio', 'Design', 'Development'],
-    image: '/placeholder.svg',
-    readTime: '5 min read',
-    slug: 'behind-scenes-portfolio-rebuild'
   }
 ];
 
