@@ -1,6 +1,6 @@
 ---
-title: "Study in Finland: From University Application to Moving Abroad"
-excerpt: "A step-by-step guide for international students on applying to Finnish universities, handling residence permits, and preparing for life in Finland."
+title: "Study in Finland: From University Application to Accepting Study place"
+excerpt: "A step-by-step guide for international students on applying to Finnish universities and confirming the student rights."
 date: "2025-07-13"
 category: "Study Abroad"
 tags: ["Finland", "University Application", "Student Life", "Moving Abroad"]
@@ -106,12 +106,12 @@ Important Notes on Joint Application and Fees:
 - Try to utiize the eary bird tuition fees waiver, mosty offered on programmes where schoarship is not 
 offered.
 - Scholarship confirmation usually comes with the admission result.
-- Non-payment by the given deadline can lead to losing your admission spot.
+- Missing payment deadline can lead to losing your admission spot.
 - The universities requests certified copies or additional documents by post or through onine channel after initial screening. Collect these documents as soon as you receive the positive descision.
 - You can certify and verify your academic and personal documents easily through [My Gov](https://www.mygov.bd/) portal. This is an official government service used for document authentication and certification.
 
 Note:
-I find sending online attested documents is easier because it contains QR code and entire process can be 
+I find sending online attested documents is easier because it contains QR codes and entire process can be 
 done onine. 
 
 #### Step 8: Accept Admission and Prepare for Residence Permit
@@ -120,8 +120,6 @@ done onine.
 - Gather all required documents for the residence permit, including the admission letter and payment receipt.
 - If you are married, check your marriage certificate and nid information. This document will be assesed incase
 you appy for your spuse residence permit.
-
----
 
 ### ✅ Summary Checklist  
 
@@ -132,8 +130,4 @@ you appy for your spuse residence permit.
 - [ ] Accept admission and confirm study place.  
 - [ ] Pay tuition fee and apply for scholarship.  
 - [ ] Proceed with residence permit application.  
-
----
-
-**Next Section: Residence Permit Application** → Ready to draft this part as well when you are.  
 
