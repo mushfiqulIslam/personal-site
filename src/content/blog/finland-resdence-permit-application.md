@@ -1,5 +1,5 @@
 ---
-title: "Residence Permit Application"
+title: "Finland Residence Permit Application Process"
 excerpt: "A step-by-step guide for international students on handling residence permits, and preparing for life in Finland."
 date: "2025-07-13"
 category: "Study Abroad"

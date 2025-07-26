@@ -10,7 +10,7 @@ readTime: "8 min read"
 
 # Deploying ML Models with ZenML
 
-Machine Learning Operations (MLOps) has become a critical aspect of modern AI development. In this comprehensive guide, we'll explore how to deploy machine learning models efficiently using ZenML, a powerful MLOps framework that simplifies the deployment process.
+Machine Learning Operations (MLOps) has become a critical aspect of modern AI development. In this comprehensive guide, we will explore how to deploy machine learning models efficiently using ZenML, a powerful MLOps framework that simplifies the deployment process.
 
 ## What is ZenML?
 
@@ -129,6 +129,7 @@ Once deployed, it's crucial to monitor your models:
 def model_monitor(model, X_test, y_test):
     """Monitor model performance."""
     predictions = model.predict(X_test)
+    
     # Log predictions and actual values for drift detection
     mlflow.log_artifact("predictions.json")
 ```
