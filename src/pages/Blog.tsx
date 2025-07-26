@@ -4,11 +4,9 @@ import { Tag, Rss } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import BlogPostCard from '@/components/BlogPostCard';
 import { useToast } from '@/components/ui/use-toast';
 
-// Sample blog data
 const blogPosts = [
   {
     id: 1,
