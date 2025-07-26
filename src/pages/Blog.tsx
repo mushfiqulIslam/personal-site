@@ -56,7 +56,7 @@ const blogPosts = [
   },
   {
     id: 5,
-    title: 'Study in Finland: From University Application to Moving Abroad',
+    title: 'Study in Finland: From University Application to Accepting Study place',
     excerpt: 'A step-by-step guide for international students on applying to Finnish universities, handling residence permits, and preparing for life in Finland.',
     date: '2025-07-13',
     category: 'Study Abroad',
@@ -199,39 +199,6 @@ const Blog = () => {
                   </Button>
                 )}
               </div>
-
-              {/* Subscribe card */}
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
-                <div className="flex items-center mb-4">
-                  <Rss className="h-5 w-5 text-portfolio-accent mr-2" />
-                  <h3 className="text-xl font-semibold">Subscribe</h3>
-                </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Get new posts delivered to your inbox.
-                </p>
-                <form onSubmit={handleSubscribe}>
-                  <Input
-                    placeholder="your@email.com"
-                    type="email"
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="mb-3"
-                  />
-                  <Button type="submit" className="w-full bg-portfolio-accent hover:bg-portfolio-accent/90">
-                    Subscribe
-                  </Button>
-                </form>
-                <div className="mt-4 flex items-center">
-                  <Rss className="h-4 w-4 text-orange-500 mr-2" />
-                  <a 
-                    href="#" 
-                    className="text-orange-500 hover:underline text-sm"
-                  >
-                    Subscribe via RSS
-                  </a>
-                </div>
-              </div>
             </div>
             
             {/* Blog posts */}
@@ -252,78 +219,6 @@ const Blog = () => {
               )}
             </div>
           </div>
-        </div>
-      </section>
-      
-      {/* Featured writing ideas section */}
-      <section className="py-12 bg-white dark:bg-gray-800">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Writing Topics</h2>
-          
-          <Tabs defaultValue="tutorials" className="max-w-4xl mx-auto">
-            <TabsList className="grid w-full grid-cols-4">
-              <TabsTrigger value="tutorials">Tutorials</TabsTrigger>
-              <TabsTrigger value="insights">Research Insights</TabsTrigger>
-              <TabsTrigger value="behind-scenes">Behind the Scenes</TabsTrigger>
-              <TabsTrigger value="trends">Tech Trends</TabsTrigger>
-            </TabsList>
-            
-            <TabsContent value="tutorials" className="mt-6">
-              <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Tutorial Articles</h3>
-                <p className="mb-4">Step-by-step guides to help you implement advanced techniques:</p>
-                <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>Deploying ML Models with ZenML</li>
-                  <li>Building a Custom RAG System with OpenAI</li>
-                  <li>Implementing CI/CD for ML Applications</li>
-                  <li>Performance Optimization for Django Applications</li>
-                  <li>Creating Custom MLOps Workflows</li>
-                </ul>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="insights" className="mt-6">
-              <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Research & Project Insights</h3>
-                <p className="mb-4">Findings and analysis from my projects and research:</p>
-                <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>Explainable AI Techniques for Computer Vision</li>
-                  <li>Benchmarking Modern LLM Approaches</li>
-                  <li>Optimizing Model Performance with Limited Data</li>
-                  <li>Case Studies of Real-World ML Applications</li>
-                  <li>Comparing Open Source VS Proprietary ML Tools</li>
-                </ul>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="behind-scenes" className="mt-6">
-              <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Behind the Scenes</h3>
-                <p className="mb-4">Detailed looks into my development process:</p>
-                <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>Rebuilding My Portfolio Website</li>
-                  <li>Setting Up My ML Development Environment</li>
-                  <li>Containerizing Applications for Production</li>
-                  <li>How I Structure Large ML Projects</li>
-                  <li>Balancing Performance and Clarity in Code</li>
-                </ul>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="trends" className="mt-6">
-              <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Tech Trend Analysis</h3>
-                <p className="mb-4">Reflections on current and emerging technology trends:</p>
-                <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
-                  <li>The Future of MLOps in Enterprise</li>
-                  <li>Responsible AI Development Practices</li>
-                  <li>Serverless Computing for ML Workflows</li>
-                  <li>Microservices vs. Monoliths in Modern Applications</li>
-                  <li>When to Use Specialized ML Hardware</li>
-                </ul>
-              </div>
-            </TabsContent>
-          </Tabs>
         </div>
       </section>
     </div>
