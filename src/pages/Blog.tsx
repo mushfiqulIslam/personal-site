@@ -4,11 +4,9 @@ import { Tag, Rss } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import BlogPostCard from '@/components/BlogPostCard';
 import { useToast } from '@/components/ui/use-toast';
 
-// Sample blog data
 const blogPosts = [
   {
     id: 1,
@@ -23,17 +21,6 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: 'Optimizing OpenAI API Calls',
-    excerpt: 'Best practices and techniques for making efficient API calls to OpenAI while managing costs and improving response times.',
-    date: '2025-04-28',
-    category: 'APIs',
-    tags: ['API', 'OpenAI', 'Python', 'Optimization'],
-    image: '/placeholder.svg',
-    readTime: '6 min read',
-    slug: 'optimizing-openai-api-calls'
-  },
-  {
-    id: 3,
     title: 'Building Scalable Microservices with Golang',
     excerpt: 'How to architect and implement highly scalable microservices using Golang, with focus on performance and maintainability.',
     date: '2025-04-10',
@@ -44,18 +31,7 @@ const blogPosts = [
     slug: 'scalable-microservices-golang'
   },
   {
-    id: 4,
-    title: 'The Rise of Explainable AI',
-    excerpt: 'Exploring the importance of transparency and interpretability in modern AI systems and how to implement XAI principles.',
-    date: '2025-03-22',
-    category: 'Machine Learning',
-    tags: ['AI', 'XAI', 'Ethics', 'Machine Learning'],
-    image: '/placeholder.svg',
-    readTime: '7 min read',
-    slug: 'rise-of-explainable-ai'
-  },
-  {
-    id: 5,
+    id: 3,
     title: 'Study in Finland: From University Application to Accepting Study place',
     excerpt: 'A step-by-step guide for international students on applying to Finnish universities, handling residence permits, and preparing for life in Finland.',
     date: '2025-07-13',
