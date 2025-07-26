@@ -53,12 +53,11 @@ Fee ranges (as of 2025):
 ## Step 3: Prepare Application Documents
 
 Commonly required documents:
-- Valid passport or national ID card.
+- Valid passport.
 - Degree certificates and official transcripts.
 - Proof of English proficiency: IELTS Academic 6.5 overall score is commonly required for most English-taught programmes.
 - Motivation letter or statement of purpose.
 - CV/resume.
-- Portfolio (for design/art-related programmes).
 
 Note:  
 > - Having subject-related job experience can strengthen your application, especially for Master’s programmes.
