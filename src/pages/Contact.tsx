@@ -51,7 +51,7 @@ const Contact = () => {
               <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
                 <h3 className="font-semibold mb-3">Availability</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  I'm currently employed full-time at PIPELINE Bangladesh Ltd., but I'm open to discussing interesting projects, collaborations, or speaking engagements. Feel free to reach out!
+                  I am currently seeking new remote and hybrid opportunities. I am open to exciting projects, collaborations, and speaking engagements. Feel free to reach out!
                 </p>
               </div>
             </div>

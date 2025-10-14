@@ -50,7 +50,7 @@ const Resume = () => {
                 
                 <div className="space-y-8">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2022 - Present</div>
+                    <div className="text-portfolio-accent font-semibold mb-2">2022 - 2025</div>
                     <h3 className="text-lg font-bold mb-1">Software Engineer</h3>
                     <div className="text-gray-500 dark:text-gray-400 mb-3">PIPELINE Bangladesh Ltd.</div>
                     <p className="text-gray-600 dark:text-gray-300">
