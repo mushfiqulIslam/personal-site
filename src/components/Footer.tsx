@@ -30,7 +30,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-3">Get in touch</h3>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-1">Email: mushfiqulislamchowdhury@gmail.com</p>
             <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Phone: 01515248558</p>
-            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Dhaka, Bangladesh</p>
+            <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">Finland</p>
             <div className="flex space-x-3">
               <a href="https://www.linkedin.com/in/mushfiqul-islam-chowdhury/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-portfolio-accent dark:hover:text-portfolio-accent transition-colors">
                 <Linkedin className="h-5 w-5" />
