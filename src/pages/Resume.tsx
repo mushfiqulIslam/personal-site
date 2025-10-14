@@ -85,21 +85,15 @@ const Resume = () => {
                 
                 <div className="space-y-8">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+                    <div className="text-portfolio-accent font-semibold mb-2">2025 - Present</div>
+                    <h3 className="text-lg font-bold mb-1">MSc. Artificial Intelligence</h3>
+                    <div className="text-gray-500 dark:text-gray-400 mb-3">University of Jyväskylä</div>
+                  </div>
+
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
                     <div className="text-portfolio-accent font-semibold mb-2">2017 - 2021</div>
                     <h3 className="text-lg font-bold mb-1">BSc. Computer Science Engineering</h3>
                     <div className="text-gray-500 dark:text-gray-400 mb-3">BRAC University</div>
-                  </div>
-                  
-                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2013 - 2015</div>
-                    <h3 className="text-lg font-bold mb-1">Higher Secondary School Certificate</h3>
-                    <div className="text-gray-500 dark:text-gray-400 mb-3">Shyampur Model School and College</div>
-                  </div>
-                  
-                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2011 - 2013</div>
-                    <h3 className="text-lg font-bold mb-1">Secondary School Certificate</h3>
-                    <div className="text-gray-500 dark:text-gray-400 mb-3">Shyampur Model School and College</div>
                   </div>
                 </div>
               </div>

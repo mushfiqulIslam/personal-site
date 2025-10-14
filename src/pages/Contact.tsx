@@ -30,7 +30,7 @@ const Contact = () => {
                   <MapPin className="h-5 w-5 text-portfolio-accent mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Address :</h3>
-                    <p className="text-gray-600 dark:text-gray-300">Dhaka, Bangladesh</p>
+                    <p className="text-gray-600 dark:text-gray-300">Finland</p>
                   </div>
                 </div>
                 
