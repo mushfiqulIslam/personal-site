@@ -4,6 +4,25 @@ import ProjectCard from '@/components/ProjectCard';
 const Portfolio = () => {
   const projects = [
     {
+      title: "UniPilot",
+      description: [
+        "AI-powered academic copilot built at the Learning Futures Hackathon 2026 (Aalto University).",
+        "Connects students, teachers, and universities through Finland's Opin.fi / HEDS data, with at-risk detection, AI study plans, and readiness checks.",
+        "Worked with TypeScript, React, AWS Lambda, Bedrock (Claude), DynamoDB and CloudFormation."
+      ],
+      technologies: ["TypeScript", "React", "AWS Lambda", "AWS Bedrock", "DynamoDB", "CloudFormation"],
+      codeLink: "https://github.com/mushfiqulIslam/unipilot",
+    },
+    {
+      title: "Sales Chatbot",
+      description: [
+        "Generative AI chatbot for personalized product recommendations and order tracking using behavioral and country-level buying data.",
+        "Layered architecture separating AI orchestration, business logic, retrieval, and data access."
+      ],
+      technologies: ["Python", "LangChain", "OpenAI API", "PostgreSQL"],
+      codeLink: "https://github.com/mushfiqulIslam/sales-chatbot",
+    },
+    {
       title: "Food Any where",
       description: [
         "Online food ordering system.",

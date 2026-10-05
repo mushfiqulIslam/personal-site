@@ -10,26 +10,27 @@ const Index = () => {
   // Featured projects data
   const featuredProjects = [
     {
+      title: "UniPilot",
+      description: [
+        "AI-powered academic copilot built at the Learning Futures Hackathon 2026 (Aalto University).",
+        "At-risk detection, AI study plans, and readiness checks on Finland's Opin.fi / HEDS data.",
+        "Worked with TypeScript, React, AWS Lambda, Bedrock and DynamoDB."
+      ],
+    },
+    {
+      title: "Sales Chatbot",
+      description: [
+        "Generative AI chatbot for personalized product recommendations and order tracking.",
+        "Layered architecture separating AI orchestration, business logic, retrieval, and data access.",
+        "Worked with Python, LangChain, OpenAI API and PostgreSQL."
+      ],
+    },
+    {
       title: "Food Any where",
       description: [
         "Online food ordering system.",
         "Build Web version of this system with API.",
         "Worked with Django, SQLite and REST API."
-      ],
-    },
-    {
-      title: "BUCC Signup App",
-      description: [
-        "Sign up app for Brac University Computer Club.",
-        "It was used in club fair.",
-        "Worked with Tkinter, Pillow, Openpyxl, and Pyinstaller."
-      ],
-    },
-    {
-      title: "StackOverflow Assistant Bot",
-      description: [
-        "A bot that can identify programming related problems from conversation and suggest related stackoverflow links.",
-        "Worked with ChatterBot, Numpy, Pandas, Sci-kit Learn and NLP."
       ],
     },
   ];
@@ -112,7 +113,7 @@ const Index = () => {
               <span className="inline-block px-3 py-1 mb-4 bg-portfolio-accent/10 text-portfolio-accent rounded-full text-sm font-medium">About Me</span>
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                A dedicated Software Engineer with a strong focus on Machine Learning, MLOps, and scalable backend systems.
+                An M.Sc. Artificial Intelligence student and Software Engineer focused on applied AI, LLM applications, and scalable backend systems.
               </p>
             </motion.div>
             
@@ -124,7 +125,7 @@ const Index = () => {
               className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300"
             >
               <p>
-                With over three years of industry experience, I excel at building AI-driven applications, deploying them at scale using modern DevOps practices, and integrating with APIs like OpenAI. My passion is solving real-world problems using data and code.
+                With 4+ years of experience, I build production-grade AI systems including multi-agent architectures, RAG pipelines, and LLM-powered applications, and deploy them with modern DevOps practices. My passion is solving real-world problems using data and code.
               </p>
             </motion.div>
             

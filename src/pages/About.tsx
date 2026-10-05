@@ -24,7 +24,7 @@ const About = () => {
               <div className="mb-6">
                 <h2 className="text-xl font-semibold mb-3 text-portfolio-accent">Positive and Enthusiastic</h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  I am a Software Engineer specializing in Machine Learning, MLOps, and scalable backend systems. With over three years of experience, I have worked with Python, Django, and cloud infrastructures to build AI-driven applications. I have also integrated APIs like OpenAI, optimizing ML pipelines with ZenML and MLflow for efficient deployment and automation.
+                  I am an M.Sc. Artificial Intelligence student at the University of Jyväskylä with 4+ years of experience in applied AI, software engineering, and data-driven system development. I have built production-grade AI systems including multi-agent architectures, RAG pipelines, conversational AI interfaces, and LLM-powered applications, using Python, cloud infrastructure, and CI/CD with GitHub Actions and Docker Compose.
                 </p>
               </div>
               <Button 
@@ -57,7 +57,7 @@ const About = () => {
                 
                 <div>
                   <p className="font-semibold">Address:</p>
-                  <p>Dhaka, Bangladesh</p>
+                  <p>Jyväskylä, Finland</p>
                 </div>
               </div>
               
@@ -70,6 +70,13 @@ const About = () => {
               <h1 className="text-3xl font-bold mb-4">Achievements</h1>
               
               <div className="space-y-6">
+                <div>
+                  <h2 className="text-xl font-semibold mb-2">Speaker, GDG Dhaka 2024</h2>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Delivered a talk on "Career with AI" at Google Developers Group Dhaka, sharing practical guidance on responsible and applied AI.
+                  </p>
+                </div>
+
                 <div>
                   <h2 className="text-xl font-semibold mb-2">Champion, Datathon 2020</h2>
                   <p className="text-gray-600 dark:text-gray-300">
@@ -100,15 +107,15 @@ const About = () => {
               </p>
               
               <p className="mt-4">
-                After graduation, I joined Field Buzz as a Junior Software Engineer, where I had the opportunity to work on real-world projects that made a difference. My role primarily involved developing and maintaining backend systems using Django and working with various databases.
+                Alongside my studies I served as General Secretary of the BRAC University Computer Club (BUCC), organizing programming contests, workshops, and training sessions. I also joined Field Buzz as a part-time Junior Software Engineer, where I redesigned role-based access control by modularizing permissions.
               </p>
               
               <p className="mt-4">
-                As I progressed in my career, I moved to Tirzok Private Limited, where I expanded my skills in microservices architecture and enterprise resource planning systems. This experience was crucial in shaping my understanding of large-scale software systems and how different components interact.
+                After graduating in 2021, I moved to Tirzok Private Limited, where I built a graph-based reward engine with Neo4j and custom Odoo modules for e-commerce transactions. This experience shaped my understanding of large-scale software systems and how different components interact.
               </p>
               
               <p className="mt-4">
-                Currently, at PIPELINE Bangladesh Ltd., I'm leveraging my experience in software engineering and my knowledge of data science to create innovative solutions. My day-to-day work involves writing clean, maintainable code in languages like Golang, Python, and JavaScript, and working with various database systems for software applications and data manipulation.
+                At Pipeline Bangladesh Ltd. I architected and led Risk Sensor (risksensor.io), a production multilingual AI security analysis platform built on multi-agent orchestration and RAG pipelines, and designed data pipelines processing 120K+ events per minute. In 2025 I moved to Finland to pursue my M.Sc. in Artificial Intelligence at the University of Jyväskylä, and in early 2026 I interned at Kimberton AI Studio, working on AI-assisted workflows and web-based AI applications.
               </p>
               
               <p className="mt-4">

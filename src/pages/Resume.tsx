@@ -6,14 +6,24 @@ import sampleCV from '../assets/Mushfiqul_Islam_Chowdhury__Resume.pdf';
 const Resume = () => {
   const skills = [
     { name: "Python", percentage: 90 },
-    { name: "Golang", percentage: 85 },
-    { name: "Java", percentage: 75 },
-    { name: "SQL", percentage: 80 }
+    { name: "SQL", percentage: 80 },
+    { name: "Go", percentage: 80 },
+    { name: "JavaScript / TypeScript", percentage: 60 },
+    { name: "Bash", percentage: 60 }
   ];
-  
+
+  const technologies = [
+    { area: "AI/ML & Data Science", items: "Claude Code, Cursor, MCP, LLM applications, RAG, ReAct agents, LangChain/LangGraph, OpenAI API, Anthropic API, NumPy, Pandas, scikit-learn, TensorFlow, PyTorch" },
+    { area: "Frontend & Full-Stack", items: "REST APIs, FastAPI, React, web-based AI applications, API integration" },
+    { area: "Cloud / MLOps", items: "AWS (EC2, ECS, SageMaker, Bedrock), GCP (Firestore, Vertex AI), Docker, Kubernetes, GitHub Actions (CI/CD), MLflow, ZenML" },
+    { area: "Data & Backend", items: "PostgreSQL, Kafka, Apache Spark, Redis, Qdrant, Neo4j, Django, DynamoDB, SQLite" },
+    { area: "Testing & Quality", items: "TDD, structured AI evaluation" }
+  ];
+
   const languages = [
-    { name: "Bengali", percentage: 100 },
-    { name: "English", percentage: 85 }
+    { name: "Bengali (Native)", percentage: 100 },
+    { name: "English (Fluent)", percentage: 90 },
+    { name: "Finnish (Basic, improving)", percentage: 25 }
   ];
 
   const handleDownloadCV = () => {
@@ -34,77 +44,106 @@ const Resume = () => {
               <h1 className="text-3xl md:text-4xl font-bold">
                 <span className="text-portfolio-accent">My</span> Resume
               </h1>
-              <Button 
+              <Button
                 className="mt-4 md:mt-0 flex items-center gap-2 bg-portfolio-accent hover:bg-portfolio-accent/90"
                 onClick={handleDownloadCV}
               >
                 <Download className="h-4 w-4" /> Download Resume
               </Button>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-xl font-bold mb-6 relative">
                   <span className="text-portfolio-accent accent-underline">Experience</span>
                 </h2>
-                
+
                 <div className="space-y-8">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2022 - 2025</div>
-                    <h3 className="text-lg font-bold mb-1">Software Engineer</h3>
-                    <div className="text-gray-500 dark:text-gray-400 mb-3">PIPELINE Bangladesh Ltd.</div>
+                    <div className="text-portfolio-accent font-semibold mb-2">Jan 2026 - Apr 2026</div>
+                    <h3 className="text-lg font-bold mb-1">Intern</h3>
+                    <div className="text-gray-500 dark:text-gray-400 mb-3">Kimberton AI Studio</div>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Primary responsibility is to write clean and maintainable code in Golang, Python, JavaScript, TypeScript etc and write efficient SQL and NoSQL queries for software systems and big data manipulation.
+                      Contributed to automation pipelines and AI-assisted workflows, focusing on backend logic, orchestration, and system reliability. Worked on web-based AI application components using React/Next.js and API-driven backend integration.
                     </p>
                   </div>
-                  
+
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2021 - 2022</div>
+                    <div className="text-portfolio-accent font-semibold mb-2">May 2022 - Aug 2025</div>
+                    <h3 className="text-lg font-bold mb-1">Software Engineer</h3>
+                    <div className="text-gray-500 dark:text-gray-400 mb-3">Pipeline Bangladesh Ltd</div>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Architected and led Risk Sensor (risksensor.io), a production multilingual AI security analysis platform using ReAct-style multi-agent orchestration and RAG pipelines, cutting a one-week manual review to near-real-time automation. Built high-throughput data pipelines processing 120K+ events/logs per minute and reduced memory consumption by over 95%.
+                    </p>
+                  </div>
+
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+                    <div className="text-portfolio-accent font-semibold mb-2">Jun 2021 - Apr 2022</div>
                     <h3 className="text-lg font-bold mb-1">Junior Software Engineer</h3>
                     <div className="text-gray-500 dark:text-gray-400 mb-3">Tirzok Private Limited</div>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Worked with Odoo, opensource ERP. Maintained odoo with other microservices to prepare a software pipeline to provide effective ERP solutions with different use cases.
+                      Designed and implemented a graph-based reward engine using Neo4j and custom Odoo modules to automate rank calculation and reward distribution for e-commerce transactions.
                     </p>
                   </div>
-                  
+
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2020 - 2021</div>
-                    <h3 className="text-lg font-bold mb-1">Junior Software Engineer</h3>
-                    <div className="text-gray-500 dark:text-gray-400 mb-3">Field Buzz</div>
+                    <div className="text-portfolio-accent font-semibold mb-2">Apr 2020 - May 2021</div>
+                    <h3 className="text-lg font-bold mb-1">Junior Software Engineer (Part-time)</h3>
+                    <div className="text-gray-500 dark:text-gray-400 mb-3">Field Information Solutions Ltd (Field Buzz)</div>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Developed and maintained backend systems using Django and various databases. Implemented features for field force automation solutions.
+                      Redesigned role-based access control by modularizing permissions, improving usability and security.
                     </p>
                   </div>
                 </div>
               </div>
-              
+
               <div>
                 <h2 className="text-xl font-bold mb-6 relative">
                   <span className="text-portfolio-accent accent-underline">Education</span>
                 </h2>
-                
+
                 <div className="space-y-8">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2025 - Present</div>
+                    <div className="text-portfolio-accent font-semibold mb-2">Aug 2025 - Present</div>
                     <h3 className="text-lg font-bold mb-1">MSc. Artificial Intelligence</h3>
                     <div className="text-gray-500 dark:text-gray-400 mb-3">University of Jyväskylä</div>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Focus on applied machine learning, NLP/LLM applications, and practical AI systems, with emphasis on empirical ML evaluation and responsible AI practices.
+                    </p>
                   </div>
 
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">2017 - 2021</div>
-                    <h3 className="text-lg font-bold mb-1">BSc. Computer Science Engineering</h3>
+                    <div className="text-portfolio-accent font-semibold mb-2">Jan 2017 - Sep 2021</div>
+                    <h3 className="text-lg font-bold mb-1">BSc. Computer Science and Engineering</h3>
                     <div className="text-gray-500 dark:text-gray-400 mb-3">BRAC University</div>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      Undergraduate thesis: Real Time Action Recognition from Video Footage.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            
+
+            <div className="mt-12">
+              <h2 className="text-xl font-bold mb-6 relative">
+                <span className="text-portfolio-accent accent-underline">Technologies</span>
+              </h2>
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md space-y-4">
+                {technologies.map((tech, index) => (
+                  <div key={index}>
+                    <div className="font-semibold mb-1">{tech.area}</div>
+                    <p className="text-gray-600 dark:text-gray-300">{tech.items}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
               <div>
                 <h2 className="text-xl font-bold mb-6 relative">
-                  <span className="text-portfolio-accent accent-underline">Skills</span>
+                  <span className="text-portfolio-accent accent-underline">Programming</span>
                 </h2>
-                
+
                 <div className="space-y-6">
                   {skills.map((skill, index) => (
                     <div key={index}>
@@ -121,12 +160,12 @@ const Resume = () => {
                   ))}
                 </div>
               </div>
-              
+
               <div>
                 <h2 className="text-xl font-bold mb-6 relative">
                   <span className="text-portfolio-accent accent-underline">Languages</span>
                 </h2>
-                
+
                 <div className="space-y-6">
                   {languages.map((language, index) => (
                     <div key={index}>
