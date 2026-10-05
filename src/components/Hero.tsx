@@ -27,12 +27,12 @@ const Hero = () => {
           duration: 0.6
         }} className="w-full md:w-1/2 mb-8 md:mb-0">
             <div className="space-y-6">
-              <span className="inline-block px-3 py-1 bg-portfolio-accent/10 text-portfolio-accent rounded-full text-sm font-medium">Software Engineer</span>
+              <span className="inline-block px-3 py-1 bg-portfolio-accent/10 text-portfolio-accent rounded-full text-sm font-medium">AI & Software Engineer</span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                 Hello, I am <br />
                 <span className="text-portfolio-accent">Mushfiqul Islam Chowdhury</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-300">Software Engineer | Backend Engineer | AI Engineer</p>
+              <p className="text-xl md:text-2xl text-gray-300">AI Engineer | Data Engineer | Software Engineer | Backend Engineer</p>
               <p className="text-gray-300 max-w-lg">
                 Passionate about solving real-world problems using AI, machine learning, and scalable backend systems.
               </p>

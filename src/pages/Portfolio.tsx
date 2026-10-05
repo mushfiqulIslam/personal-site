@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import ProjectCard from '@/components/ProjectCard';
 
 const Portfolio = () => {
@@ -86,11 +87,14 @@ const Portfolio = () => {
       <section className="py-16 bg-gray-100 dark:bg-gray-800">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Currently, I have no intention to switch job</h2>
+            <h2 className="text-3xl font-bold mb-6">I'm currently open to new opportunities</h2>
             <div className="mt-6">
-              <button className="bg-portfolio-accent hover:bg-portfolio-accent/90 text-white font-medium py-2 px-6 rounded-md transition-colors">
-                Still want to talk?
-              </button>
+              <Link
+                to="/contact"
+                className="inline-block bg-portfolio-accent hover:bg-portfolio-accent/90 text-white font-medium py-2 px-6 rounded-md transition-colors"
+              >
+                Let's talk
+              </Link>
             </div>
           </div>
         </div>

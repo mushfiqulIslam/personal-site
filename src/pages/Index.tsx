@@ -113,7 +113,7 @@ const Index = () => {
               <span className="inline-block px-3 py-1 mb-4 bg-portfolio-accent/10 text-portfolio-accent rounded-full text-sm font-medium">About Me</span>
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-gray-600 dark:text-gray-300">
-                An M.Sc. Artificial Intelligence student and Software Engineer focused on applied AI, LLM applications, and scalable backend systems.
+                An M.Sc. Artificial Intelligence student and Software Engineer with an AI and data focus, working on LLM applications, data pipelines, and scalable backend systems.
               </p>
             </motion.div>
             
