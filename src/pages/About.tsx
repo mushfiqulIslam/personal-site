@@ -24,7 +24,7 @@ const About = () => {
               <div className="mb-6">
                 <h2 className="text-xl font-semibold mb-3 text-portfolio-accent">Positive and Enthusiastic</h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  I am an M.Sc. Artificial Intelligence student at the University of Jyväskylä with 4+ years of experience in applied AI, software engineering, and data-driven system development. I have built production-grade AI systems including multi-agent architectures, RAG pipelines, conversational AI interfaces, and LLM-powered applications, using Python, cloud infrastructure, and CI/CD with GitHub Actions and Docker Compose.
+                  I am an M.Sc. Artificial Intelligence student at the University of Jyväskylä with 5+ years in software engineering, including 3+ years building production LLM systems. I have built production-grade AI systems including multi-agent architectures, RAG pipelines, conversational AI interfaces, and LLM-powered applications, using Python, cloud infrastructure, and CI/CD with GitHub Actions and Docker Compose.
                 </p>
               </div>
               <Button 
@@ -115,7 +115,7 @@ const About = () => {
               </p>
               
               <p className="mt-4">
-                At Pipeline Bangladesh Ltd. I architected and led Risk Sensor (risksensor.io), a production multilingual AI security analysis platform built on multi-agent orchestration and RAG pipelines, and designed data pipelines processing 120K+ events per minute. In 2025 I moved to Finland to pursue my M.Sc. in Artificial Intelligence at the University of Jyväskylä, and in early 2026 I interned at Kimberton AI Studio, working on AI-assisted workflows and web-based AI applications.
+                At Pipeline Bangladesh Ltd. I architected and led Risk Sensor (risksensor.io), a production multilingual AI security analysis platform built on multi-agent orchestration and RAG pipelines and used by 10+ companies, and designed data pipelines processing 120K+ events per minute. In 2025 I moved to Finland to pursue my M.Sc. in Artificial Intelligence at the University of Jyväskylä, and in early 2026 I interned at Kimberton AI Studio, working on AI-assisted workflows and web-based AI applications.
               </p>
               
               <p className="mt-4">

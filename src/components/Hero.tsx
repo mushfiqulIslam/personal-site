@@ -74,7 +74,7 @@ const Hero = () => {
                   </div>
                   <h2 className="text-xl font-semibold text-white mb-4">Building intelligent solutions with code and data</h2>
                   <p className="text-gray-300 mb-6">
-                    With 4+ years of experience in applied AI and software engineering, I create scalable solutions that make a difference.
+                    With 5+ years in software engineering and 3+ years building production LLM systems, I create scalable solutions that make a difference.
                   </p>
                   <div className="flex justify-center space-x-4">
                     <a href="https://www.linkedin.com/in/mushfiqul-islam-chowdhury/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer">

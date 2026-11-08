@@ -10,6 +10,14 @@ const Index = () => {
   // Featured projects data
   const featuredProjects = [
     {
+      title: "Picli",
+      description: [
+        "Co-founded a mobile app that suggests one nearby event or small challenge each day; live on the App Store and Google Play.",
+        "Built the FastAPI backend and daily recommendation logic.",
+        "Worked with Python, PostgreSQL, Redis, AWS ECS and Cloudflare."
+      ],
+    },
+    {
       title: "UniPilot",
       description: [
         "AI-powered academic copilot built at the Learning Futures Hackathon 2026 (Aalto University).",
@@ -23,14 +31,6 @@ const Index = () => {
         "Generative AI chatbot for personalized product recommendations and order tracking.",
         "Layered architecture separating AI orchestration, business logic, retrieval, and data access.",
         "Worked with Python, LangChain, OpenAI API and PostgreSQL."
-      ],
-    },
-    {
-      title: "Food Any where",
-      description: [
-        "Online food ordering system.",
-        "Build Web version of this system with API.",
-        "Worked with Django, SQLite and REST API."
       ],
     },
   ];
@@ -125,7 +125,7 @@ const Index = () => {
               className="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300"
             >
               <p>
-                With 4+ years of experience, I build production-grade AI systems including multi-agent architectures, RAG pipelines, and LLM-powered applications, and deploy them with modern DevOps practices. My passion is solving real-world problems using data and code.
+                With 5+ years in software engineering, including 3+ years building production LLM systems, I build production-grade AI systems including multi-agent architectures, RAG pipelines, and LLM-powered applications, and deploy them with modern DevOps practices. My passion is solving real-world problems using data and code.
               </p>
             </motion.div>
             
