@@ -15,7 +15,7 @@ const Resume = () => {
   const technologies = [
     { area: "AI/ML & Data Science", items: "Claude Code, Cursor, MCP, LLM applications, RAG, ReAct agents, LangChain/LangGraph, OpenAI API, Anthropic API, NumPy, Pandas, scikit-learn, TensorFlow, PyTorch" },
     { area: "Frontend & Full-Stack", items: "REST APIs, FastAPI, React, web-based AI applications, API integration" },
-    { area: "Cloud / MLOps", items: "AWS (EC2, ECS, SageMaker, Bedrock), GCP (Firestore, Vertex AI), Docker, Kubernetes, GitHub Actions (CI/CD), MLflow, ZenML" },
+    { area: "Cloud / MLOps", items: "AWS (EC2, ECS, S3, SageMaker, Bedrock), GCP (Firestore, Vertex AI), Cloudflare, Sentry, Docker, Kubernetes, GitHub Actions (CI/CD), MLflow, ZenML" },
     { area: "Data & Backend", items: "PostgreSQL, Kafka, Apache Spark, Redis, Qdrant, Neo4j, Django, DynamoDB, SQLite" },
     { area: "Testing & Quality", items: "TDD, structured AI evaluation" }
   ];
@@ -69,11 +69,11 @@ const Resume = () => {
                   </div>
 
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                    <div className="text-portfolio-accent font-semibold mb-2">May 2022 - Aug 2025</div>
+                    <div className="text-portfolio-accent font-semibold mb-2">May 2022 - Dec 2025</div>
                     <h3 className="text-lg font-bold mb-1">Software Engineer</h3>
                     <div className="text-gray-500 dark:text-gray-400 mb-3">Pipeline Bangladesh Ltd</div>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Architected and led Risk Sensor (risksensor.io), a production multilingual AI security analysis platform using ReAct-style multi-agent orchestration and RAG pipelines, cutting a one-week manual review to near-real-time automation. Built high-throughput data pipelines processing 120K+ events/logs per minute and reduced memory consumption by over 95%.
+                      Architected and led Risk Sensor (risksensor.io), a production multilingual AI security analysis platform using ReAct-style multi-agent orchestration and RAG pipelines, serving 10+ companies. Replaced a manual process that delivered 1–2 security reports per week with on-demand report generation. Built high-throughput data pipelines processing 120K+ events/logs per minute and reduced memory consumption by over 95%.
                     </p>
                   </div>
 

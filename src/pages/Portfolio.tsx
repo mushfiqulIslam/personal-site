@@ -5,6 +5,26 @@ import ProjectCard from '@/components/ProjectCard';
 const Portfolio = () => {
   const projects = [
     {
+      title: "Picli",
+      description: [
+        "Co-founded Picli, a mobile app that suggests one nearby event or small challenge each day; live on the App Store and Google Play.",
+        "Built the FastAPI backend (PostgreSQL, Redis, ARQ, Firebase, S3), including the daily recommendation logic.",
+        "Ran DevOps on AWS ECS with GitHub Actions CI/CD, Cloudflare and Sentry, plus the store releases."
+      ],
+      technologies: ["Python", "FastAPI", "PostgreSQL", "Redis", "AWS ECS", "GitHub Actions"],
+      liveLink: "https://www.picli.fi/?lang=en",
+    },
+    {
+      title: "RetroSense",
+      description: [
+        "Read-only early-warning assistant for 10–25-year-old cooling-water pumps, built at the Since AI Hackathon 2026 (Turku) for the Business Turku RETROFIT AI challenge.",
+        "Detects faults from past sensor data only, tells sensor faults apart from machine faults, and writes one evidence-backed action card per problem.",
+        "Owned the data pipeline, data-quality and sensor-fault checks, evaluation, and physics-based diagnosis; scored 85.4 on validation vs. the 78.0 organizer baseline."
+      ],
+      technologies: ["Python", "Time Series", "Anomaly Detection", "Signal Processing", "React"],
+      liveLink: "https://youtu.be/WVi6CbcX2wo",
+    },
+    {
       title: "UniPilot",
       description: [
         "AI-powered academic copilot built at the Learning Futures Hackathon 2026 (Aalto University).",
