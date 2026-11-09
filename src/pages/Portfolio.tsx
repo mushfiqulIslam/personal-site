@@ -22,7 +22,7 @@ const Portfolio = () => {
         "Owned the data pipeline, data-quality and sensor-fault checks, evaluation, and physics-based diagnosis; scored 85.4 on validation vs. the 78.0 organizer baseline."
       ],
       technologies: ["Python", "Time Series", "Anomaly Detection", "Signal Processing", "React"],
-      liveLink: "https://youtu.be/WVi6CbcX2wo",
+      liveLink: "https://youtu.be/AXahxhoUOTU",
     },
     {
       title: "UniPilot",
